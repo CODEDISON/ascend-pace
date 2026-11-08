@@ -1,0 +1,11 @@
+{
+  "DESIGN.md": "8878a0ad4a5c52c266227e8ad97957687ed676dd5298097b228b2e6079eeb6b4",
+  "launch.py": "7b92739ac3d5bf7c634a0a2085e6c9d5f930ab859f01ad02d5abd6bf5eb171fb",
+  "make_manifest.py": "bd31d71593cbf4157eb68ac70bf451b1d6dd82dcd88efd63239e2eba1558bbf1",
+  "observed_npu_info_fixture.json": "20ce5948a3dbfba50751dc74aa20ec428b1f2f4f007851379a492e30ee2ff0b1",
+  "plan.py": "a91d2b3aa4abd4b38fccb330f2a16fc84b987db4767c366ddad2f4709bd8e3e9",
+  "precheck.py": "5e3b44f22e554873e07bd79ac9dab54cdafa1ab4ecc25bdaeebe6a5afee45bbf",
+  "supervisor.py": "e75e34fdddefbe1d1ff25be4319c6c4d1d230081894e514edad1a23dd3be0e93",
+  "test_cpu.py": "a120c681fe1c30547ffe1f1969ab728aef66831b41ba7a805398e8f01674aa86",
+  "worker.py": "b781ef139707dbfaa663e8ba9d9017c21e1cead98f50d5a50437e72985890f22"
+}

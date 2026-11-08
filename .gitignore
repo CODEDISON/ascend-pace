@@ -1,0 +1,49 @@
+# Paper / manuscript sources (kept out of this engineering repo)
+paper_revision2/
+deliverables/
+response/
+Reviews.txt
+progress.md
+PRIVATE_CLAUDE_MAPPING.md
+Revision2_*.md
+
+# LaTeX build artifacts
+*.pdf
+*.aux
+*.log
+*.out
+*.synctex.gz
+*.bbl
+*.blg
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latetimes
+*.spl
+redline_v*/
+
+# Large data
+*.tar.gz
+*.bin
+*.pth
+*.onnx
+*.npy
+*.safetensors
+models/
+node_modules/
+__pycache__/
+*.pyc
+.DS_Store
+
+# Raw experiment payloads (too large for git)
+analysis_results/*/raw/
+analysis_results/*/payload/
+analysis_results/*/rank-*/
+
+# Editor / temp
+*.swp
+*~
+opencode/
+.idea/
+.vscode/
