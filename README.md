@@ -120,10 +120,7 @@ ascend-pace/
 ├── experiments/          # Ready-to-run vLLM/MC2 driver scripts (hpa image)
 │   └── mc2/              #   baseline, batch sweep, sustained decoding, cross-model
 ├── analysis/             # Benchmark harness lanes (pre-device source review)
-│   ├── atlas_barrier_microbench_v3/       # multi-group barrier cost
-│   ├── atlas_sparse_distribution_lane_*/  # 17-shape PACE vs HCCL comparison
-│   ├── atlas_optimized_hccl_lane_*/       # 4-arm Williams design
-│   └── atlas_memory_campaign_lane_*/      # 45-job 3-lens memory profiling
+│   └── atlas_barrier_microbench_v3/       # multi-group barrier cost
 ├── analysis_results/     # Device measurement outputs (JSON event logs)
 │   ├── mc2_baseline_v3/  # OLMoE native vs fullmesh
 │   ├── mc2_v4/           # OLMoE hierarchy + Qwen3-30B-A3B
@@ -144,9 +141,6 @@ ascend-pace/
 | `experiments/mc2/mc2_sweep2.py` | Batch-size sweep bs1–bs32 | ✅ complete |
 | `experiments/mc2/mc2_long.py` | Sustained decoding 16/64/256 steps | ✅ complete |
 | `analysis/atlas_barrier_microbench_v3/` | Multi-group empty-barrier cost | ✅ complete |
-| `analysis/atlas_sparse_distribution_lane_*` | Captured-shape PACE vs HCCL | ✅ 3/6 groups (device limitation on job3, see findings) |
-| `analysis/atlas_memory_campaign_lane_*` | Memory profiling design | 📋 design + prechecks |
-| `analysis/atlas_optimized_hccl_lane_*` | 4-arm Williams design | 📋 design (superseded by MC2 device data) |
 
 ## 🙏 Third-Party & Acknowledgments
 

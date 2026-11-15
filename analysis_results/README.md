@@ -20,7 +20,7 @@ event line is emitted by the corresponding harness under `experiments/` or
 |---|---|
 | `revision2_barrier_v3_campaign_20261105_v1/final_20261107/` | 10-group barrier aggregate (57.7 µs → 14.4 µs pipeline saturation) |
 | `revision2_concern9_L_analysis_*` | Minimum safe slot capacity L for captured routing shapes (independent v1+v2) |
-| `sparse_lane_campaign_20261105_v1/` | Device finding: aicpu 507018 on syn-diag-512 (job3 limitation) |
+| `sparse_lane_campaign_20261105_v1/` | HCCL/AICPU device boundary finding: cold first call on diagonal-only extreme reproducibly faults (error 507018); the same case passes bit-exactly at later positions |
 | `vllm_npu_incompatibility_finding.md` | Frozen-image vLLM+NPU engine-init failure diagnosis |
 
 ## Parsing

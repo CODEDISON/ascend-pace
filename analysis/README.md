@@ -8,9 +8,6 @@ prechecks (`precheck.py`), CPU-side tests (`test_cpu.py`), and a frozen
 | Lane | Measures | Status |
 |---|---|---|
 | `atlas_barrier_microbench_v2/`, `v3/` | Empty SHMEM barrier cost across group sizes; pipeline saturation | ✅ complete (aggregate in `analysis_results/revision2_barrier_v3_campaign_*/`) |
-| `atlas_sparse_distribution_lane_20261105_v1/` | 17 captured-shape PACE vs native HCCL, forced SDMA | ✅ 3/6 groups; job3 hit a device-level aicpu limitation (see findings) |
-| `atlas_optimized_hccl_lane_20261105_v1/` | 4-arm Williams design vs optimized HCCL | 📋 design + prechecks (frozen image vLLM broken; superseded by MC2 device data) |
-| `atlas_memory_campaign_lane_20261105_v1/` | 45-job 3-lens memory profiling | 📋 design + prechecks |
 
 Operating discipline (applies to every lane):
 
